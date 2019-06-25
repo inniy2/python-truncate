@@ -16,9 +16,9 @@ import time
 # truncate_size=int(config['DEFAULT']['truncate_size'])
 # idle_interval=int(config['DEFAULT']['idle_interval'])
 
-mysql_dir=
-schema=
-definition=
+mysql_dir="/Users/baesangsun"
+schema="Downloads"
+definition="ubuntu-18.04.2-desktop-amd64-copy.iso"
 truncate_size=1073741824
 idle_interval=5
 
@@ -36,8 +36,8 @@ target_file_path=mysql_dir+"/"+schema+"/"+definition+".ibd.rm"
 # Validation
 # ################################################### 
 
-if truncate_size != 10737418240:
-    print("Please use truncate_size 10737418240 bytes for now. I will improve in the future.")
+if truncate_size != 1073741824:
+    print("Please use truncate_size 1073741824 bytes for now. I will improve in the future.")
     print("Program exit")
     exit(103)
 
