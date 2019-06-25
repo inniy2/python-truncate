@@ -23,7 +23,7 @@ truncate_size=1073741824
 idle_interval=5
 
 
-truncate_commandLine="truncate  -s  -10GB"
+truncate_commandLine="truncate  -s  -1GB"
 #truncate_commandLine="ls -al"
 delete_commandLine="rm -rf"
 
